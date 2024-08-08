@@ -1,0 +1,42 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "id_ticket",
+      "payment_method",
+      "amount",
+      "datetime",
+      "status"
+    ],
+    "properties": {
+      "id_ticket": {
+        "bsonType": "objectId",
+        "description": "The ID of the ticket associated with the payment"
+      },
+      "payment_method": {
+        "bsonType": "string",
+        "description": "The method used for payment (e.g., credit card, PayPal)"
+      },
+      "amount": {
+        "bsonType": [
+          "int",
+          "double"
+        ],
+        "description": "The amount paid"
+      },
+      "datetime": {
+        "bsonType": "date",
+        "description": "The date and time when the payment was made"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": [
+          "processing",
+          "completed",
+          "failed"
+        ],
+        "description": "The status of the payment"
+      }
+    }
+  }
+}

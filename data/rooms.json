@@ -1,0 +1,7 @@
+[
+{"_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"name":"Room A","capacity":150,"type":"2D"},
+{"_id":{"$oid":"66a0311defbbe5d5d5ed7009"},"name":"Room B","capacity":200,"type":"3D"},
+{"_id":{"$oid":"66a0311defbbe5d5d5ed700a"},"name":"Room C","capacity":120,"type":"2D"},
+{"_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"name":"Room D","capacity":180,"type":"3D"},
+{"_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"name":"Room E","capacity":100,"type":"2D"},
+]

@@ -1,0 +1,58 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "screening_id",
+      "user_id",
+      "seat_number",
+      "subtotal",
+      "discount_vip",
+      "total",
+      "status"
+    ],
+    "properties": {
+      "screening_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the screening for which the ticket is issued"
+      },
+      "user_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the user who purchased the ticket"
+      },
+      "seat_number": {
+        "bsonType": "string",
+        "description": "The seat number assigned for the ticket"
+      },
+      "subtotal": {
+        "bsonType": [
+          "int",
+          "double"
+        ],
+        "description": "The subtotal amount before any discounts"
+      },
+      "discount_vip": {
+        "bsonType": [
+          "int",
+          "double"
+        ],
+        "description": "The amount of discount applied for VIP users"
+      },
+      "total": {
+        "bsonType": [
+          "int",
+          "double"
+        ],
+        "description": "The total amount after applying discounts"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": [
+          "paid",
+          "reserved",
+          "cancelled"
+        ],
+        "description": "The status of the ticket"
+      }
+    }
+  }
+}

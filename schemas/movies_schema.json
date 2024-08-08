@@ -1,0 +1,43 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "genres",
+      "duration_min",
+      "clasification",
+      "synopsis"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string",
+        "description": "The title of the movie"
+      },
+      "genres": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "List of genres the movie belongs to"
+      },
+      "duration_min": {
+        "bsonType": "int",
+        "description": "Duration of the movie in minutes"
+      },
+      "clasification": {
+        "enum": [
+          "G",
+          "PG",
+          "PG-13",
+          "R",
+          "NC-17"
+        ],
+        "description": "Classification rating of the movie"
+      },
+      "synopsis": {
+        "bsonType": "string",
+        "description": "Brief summary of the movie plot"
+      }
+    }
+  }
+}

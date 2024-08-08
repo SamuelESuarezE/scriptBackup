@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "capacity",
+      "type"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string",
+        "description": "The name of the room"
+      },
+      "capacity": {
+        "bsonType": "int",
+        "description": "The seating capacity of the room"
+      },
+      "type": {
+        "enum": [
+          "2D",
+          "3D"
+        ],
+        "description": "The type of room (2D or 3D)"
+      }
+    }
+  }
+}

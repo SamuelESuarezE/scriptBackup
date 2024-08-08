@@ -1,0 +1,7 @@
+[
+{"_id":{"$oid":"66a03843efbbe5d5d5ed702f"},"name":"Miguel Castro","email":"charlie.brown@example.com","phone":"+1234567892","role":"vip","nickname":"miguelin"},
+{"_id":{"$oid":"66abc63f7b78fc49d1c8c6e2"},"name":"root","email":"rootemail@email.com","phone":"+12312231221321","role":"admin","nickname":"mongo"},
+{"_id":{"$oid":"66abc644929766273ae4bb81"},"name":"Samuel Suarez","email":"samuel.suarez@example.com","phone":"+1234567890","role":"admin","nickname":"samuel10"},
+{"_id":{"$oid":"66abc70c773a9cfdfc9ecea8"},"name":"Estandar","email":"samuel.suarez@example.com","phone":"+1234567890","role":"standard","nickname":"ejemplo"},
+{"_id":{"$oid":"66ad0e24d07065c29029a6c9"},"name":"Miguel","email":"ejempl@omail.com","phone":"12213131221","role":"standard","nickname":"miguelito"},
+]

@@ -1,0 +1,32 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "movie_id",
+      "room_id",
+      "datetime",
+      "price_per_seat"
+    ],
+    "properties": {
+      "movie_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the movie being screened"
+      },
+      "room_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the room where the movie is being screened"
+      },
+      "datetime": {
+        "bsonType": "date",
+        "description": "The date and time of the screening"
+      },
+      "price_per_seat": {
+        "bsonType": [
+          "int",
+          "double"
+        ],
+        "description": "The price per seat in thousands"
+      }
+    }
+  }
+}

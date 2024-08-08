@@ -1,0 +1,20 @@
+{
+  "$jsonSchema": {
+    "additionalProperties": false,
+    "bsonType": "object",
+    "required": [
+      "room_id",
+      "seat_number"
+    ],
+    "properties": {
+      "room_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the room"
+      },
+      "seat_number": {
+        "bsonType": "string",
+        "description": "The number of the seat"
+      }
+    }
+  }
+}

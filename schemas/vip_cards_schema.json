@@ -1,0 +1,39 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "number",
+      "user_id",
+      "expiration_date",
+      "status",
+      "discount_percentage"
+    ],
+    "properties": {
+      "number": {
+        "bsonType": "string",
+        "description": "The unique number of the VIP card"
+      },
+      "user_id": {
+        "bsonType": "objectId",
+        "description": "The ID of the user who owns the VIP card"
+      },
+      "expiration_date": {
+        "bsonType": "date",
+        "description": "The expiration date of the VIP card"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": [
+          "active",
+          "expired",
+          "blocked"
+        ],
+        "description": "The current status of the VIP card"
+      },
+      "discount_percentage": {
+        "bsonType": "int",
+        "description": "The discount percentage offered by the VIP card"
+      }
+    }
+  }
+}
