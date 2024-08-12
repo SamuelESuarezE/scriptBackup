@@ -1,4 +1,2 @@
 [
-{"_id":{"$oid":"66ad0ed602b85899c5ed370d"},"screening_id":{"$oid":"66a03526efbbe5d5d5ed702b"},"user_id":{"$oid":"66ad0e24d07065c29029a6c9"},"seat_number":"A5","subtotal":8000,"datetime":"2024-08-02T16:52:38.222Z","discount_vip":0,"total":8000,"status":"reserved"},
-{"_id":{"$oid":"66b5017e7aa7f45c0acf7480"},"screening_id":{"$oid":"66a03526efbbe5d5d5ed7026"},"user_id":{"$oid":"66a03843efbbe5d5d5ed702f"},"seat_number":"A1","subtotal":10000,"datetime":"2024-08-08T17:33:50.280Z","discount_vip":15,"total":8500,"status":"reserved"},
 ]

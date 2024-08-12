@@ -37,6 +37,10 @@
       "synopsis": {
         "bsonType": "string",
         "description": "Brief summary of the movie plot"
+      },
+      "cover": {
+        "bsonType": "string",
+        "description": "URL of cover of the movie"
       }
     }
   }

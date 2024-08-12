@@ -1,3 +1,3 @@
 [
-{"_id":{"$oid":"66a04f27efbbe5d5d5ed703b"},"number":"VIP1234567890","user_id":{"$oid":"66a03843efbbe5d5d5ed702f"},"expiration_date":"2024-12-31T00:00:00.000Z","status":"active","discount_percentage":15},
+{"_id":{"$oid":"66a04f27efbbe5d5d5ed703b"},"number":"VIP1234567890","user_id":{"$oid":"66a03843efbbe5d5d5ed702f"},"expiration_date": {"$date": "2024-12-31T00:00:00.000Z"},"status":"active","discount_percentage":15}
 ]

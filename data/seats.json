@@ -19,9 +19,9 @@
 {"_id":{"$oid":"66a0335cefbbe5d5d5ed701e"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"seat_number":"D3"},
 {"_id":{"$oid":"66a0335cefbbe5d5d5ed701f"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"seat_number":"D4"},
 {"_id":{"$oid":"66a0335cefbbe5d5d5ed7020"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"seat_number":"D5"},
-{"_id":{"$oid":"66a0335cefbbe5d5d5ed7021"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E1","status":"available"},
-{"_id":{"$oid":"66a0335cefbbe5d5d5ed7022"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E2","status":"available"},
-{"_id":{"$oid":"66a0335cefbbe5d5d5ed7023"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E3","status":"available"},
-{"_id":{"$oid":"66a0335cefbbe5d5d5ed7024"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E4","status":"available"},
-{"_id":{"$oid":"66a0335cefbbe5d5d5ed7025"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E5","status":"available"},
+{"_id":{"$oid":"66a0335cefbbe5d5d5ed7021"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E1"},
+{"_id":{"$oid":"66a0335cefbbe5d5d5ed7022"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E2"},
+{"_id":{"$oid":"66a0335cefbbe5d5d5ed7023"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E3"},
+{"_id":{"$oid":"66a0335cefbbe5d5d5ed7024"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E4"},
+{"_id":{"$oid":"66a0335cefbbe5d5d5ed7025"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"seat_number":"E5"}
 ]

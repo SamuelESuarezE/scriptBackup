@@ -1,10 +1,10 @@
 [
-{"_id":{"$oid":"66a03526efbbe5d5d5ed7026"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b58f"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime":"2024-07-25T14:00:00.000Z","price_per_seat":10000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed7027"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b590"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7009"},"datetime":"2024-07-25T16:00:00.000Z","price_per_seat":15000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed7028"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b591"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700a"},"datetime":"2024-07-25T18:00:00.000Z","price_per_seat":20000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed7029"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b592"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"datetime":"2024-07-26T14:00:00.000Z","price_per_seat":5000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed702a"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b593"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"datetime":"2024-07-26T16:00:00.000Z","price_per_seat":12000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed702b"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b594"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime":"2024-07-26T18:00:00.000Z","price_per_seat":8000},
-{"_id":{"$oid":"66a03526efbbe5d5d5ed702c"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b595"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7009"},"datetime":"2024-07-27T14:00:00.000Z","price_per_seat":14000},
-{"_id":{"$oid":"66a1370bc0aea582d1ac2573"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b58f"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime":"2024-07-25T16:00:00.000Z","price_per_seat":12000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed7026"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b58f"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime": {"$date": "2024-07-25T14:00:00.000Z"},"price_per_seat":10000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed7027"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b590"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7009"},"datetime": {"$date": "2024-07-25T16:00:00.000Z"},"price_per_seat":15000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed7028"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b591"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700a"},"datetime": {"$date": "2024-07-25T18:00:00.000Z"},"price_per_seat":20000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed7029"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b592"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700b"},"datetime": {"$date": "2024-07-26T14:00:00.000Z"},"price_per_seat":5000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed702a"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b593"},"room_id":{"$oid":"66a0311defbbe5d5d5ed700c"},"datetime": {"$date": "2024-07-26T16:00:00.000Z"},"price_per_seat":12000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed702b"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b594"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime": {"$date": "2024-07-26T18:00:00.000Z"},"price_per_seat":8000},
+{"_id":{"$oid":"66a03526efbbe5d5d5ed702c"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b595"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7009"},"datetime": {"$date": "2024-07-27T14:00:00.000Z"},"price_per_seat":14000},
+{"_id":{"$oid":"66a1370bc0aea582d1ac2573"},"movie_id":{"$oid":"64b15c2f08e3e6d75107b58f"},"room_id":{"$oid":"66a0311defbbe5d5d5ed7008"},"datetime": {"$date": "2024-07-25T16:00:00.000Z"},"price_per_seat":12000}
 ]

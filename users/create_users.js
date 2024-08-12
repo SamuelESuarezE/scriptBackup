@@ -9,9 +9,9 @@ db.createUser(
 
 db.createUser(
   {
-    user: "miguelito",
+    user: "miguelin",
     pwd: "",
-    roles: [{"role":"standard","db":"cineCampus"}]
+    roles: [{"role":"vip","db":"cineCampus"}]
   }
 );
 
