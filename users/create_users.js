@@ -2,23 +2,23 @@
 db.createUser(
   {
     user: "ejemplo",
-    pwd: "",
-    roles: [{"role":"standard","db":"cineCampus"}]
+    pwd: "66abc70c773a9cfdfc9ecea8",
+    roles: [{"role":"standard","db":"cineCampusS"}]
   }
 );
 
 db.createUser(
   {
     user: "miguelin",
-    pwd: "",
-    roles: [{"role":"vip","db":"cineCampus"}]
+    pwd: "66a03843efbbe5d5d5ed702f",
+    roles: [{"role":"vip","db":"cineCampusS"}]
   }
 );
 
 db.createUser(
   {
     user: "samuel10",
-    pwd: "",
-    roles: [{"role":"dbOwner","db":"cineCampus"}]
+    pwd: "66abc644929766273ae4bb81",
+    roles: [{"role":"dbOwner","db":"cineCampusS"}]
   }
 );

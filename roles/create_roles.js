@@ -5,7 +5,7 @@ db.createRole(
     privileges: [
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "seats"
     },
     "actions": [
@@ -14,7 +14,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "rooms"
     },
     "actions": [
@@ -23,7 +23,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "screenings"
     },
     "actions": [
@@ -32,7 +32,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "tickets"
     },
     "actions": [
@@ -43,7 +43,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "movies"
     },
     "actions": [
@@ -52,7 +52,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "payments"
     },
     "actions": [
@@ -63,7 +63,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "vip_cards"
     },
     "actions": [
@@ -74,7 +74,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "users"
     },
     "actions": [
@@ -83,7 +83,8 @@ db.createRole(
       "update"
     ]
   }
-]
+],
+"roles": []
   }
 );
 
@@ -93,7 +94,7 @@ db.createRole(
     privileges: [
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "seats"
     },
     "actions": [
@@ -102,7 +103,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "rooms"
     },
     "actions": [
@@ -111,7 +112,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "screenings"
     },
     "actions": [
@@ -120,7 +121,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "tickets"
     },
     "actions": [
@@ -131,7 +132,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "movies"
     },
     "actions": [
@@ -140,7 +141,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "payments"
     },
     "actions": [
@@ -151,7 +152,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "vip_cards"
     },
     "actions": [
@@ -162,7 +163,7 @@ db.createRole(
   },
   {
     "resource": {
-      "db": "cineCampus",
+      "db": "cineCampusS",
       "collection": "users"
     },
     "actions": [
@@ -171,6 +172,7 @@ db.createRole(
       "update"
     ]
   }
-]
+],
+"roles": []
   }
 );
